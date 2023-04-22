@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdarg.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /************************* PRINT CHAR *************************/
 
@@ -184,6 +187,7 @@ int print_binary(va_list types, char buffer[],
 			count++;
 		}
 	}
+
 	return (count);
 }
 
