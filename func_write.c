@@ -1,8 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
-#include <stdarg.h>
-#include <stdio.h>
-#include <unistd.h>
+#include "main. h"
 
 /**
  * handle_write_char - Prints a string
